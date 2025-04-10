@@ -8,7 +8,7 @@ const User = ({ user }) => {
         navigateToUserDetails(`/users/${id}`);
     }
   return (
-    <div className="w-[300px] flex flex-col p-5 mx-auto border border-solid border-blue-200 bg-purple-700 text-white rounded-xl shadow-xl">
+    <div className="w-11/12 flex flex-col p-5 mx-auto border border-solid border-blue-200 bg-purple-700 text-white rounded-xl shadow-xl">
       <div className="flex-grow">
         <h1>User Name: {username}</h1>
         <p>Name: {name}</p>
