@@ -22,7 +22,7 @@ const User = ({ user }) => {
             Show Details
           </button>
         </Link>
-        <button onClick={handleNavigateToUserDetails} className="bg-green-500 hover:bg-green-900 hover:font-bold p-2 rounded-xl ml-4">
+        <button onClick={handleNavigateToUserDetails} className="bg-green-500 hover:bg-green-900 hover:font-bold p-2 rounded-xl ml-0 mt-4 md:mt-0 md:ml-4">
           Click Here
         </button>
       </div>
